@@ -7,7 +7,7 @@ services:
   web:
     build: .
     ports:
-      - '3000:3000'
+      - '3030:3030'
     volumes:
       - '.:/product-register'
     environment:
